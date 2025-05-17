@@ -1,38 +1,34 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Kingdom of Prussia", 
+		"leaderName": "Frederick William III", 
+		"adjective": ["Prussian"],
+		"personality": "Frederick William III",
+		"preferredVictoryType": "Domination",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"startIntroPart1": "King Frederick William III, ruler of Prussia and reformer of the army, your kingdom stands as Europe's rising sword.",
+		"startIntroPart2": "Can you transform defeat into destiny and lead Prusia to greatness?",
+		"declaringWar": "Prussia shall bring order through steel!",
+		"attacked": "Prussians do not yield!",
+		"defeated": "Our discipline... was not enough...",
+		"introduction": "I am Frederick William III of Prussia. Speak quickly, and with purpose.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+		"neutralHello": "We are watching. Closely.",
+		"hateHello": "You dishonor Prussian order.",
+
+		"tradeRequest": "Efficiency demands agreement. Proceed.",
+
+		"outerColor": [210,205,197],
+		"innerColor": [33,30,28],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Army With a State",
+		"uniques": ["[+2 Production, +2 Science, +2 Happiness] <with a garrison>","[+25]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>",
+			    "Earn [25]% of killed [Military] unit's [Strength] as [Science]", "Earn [50]% of killed [Military] unit's [Strength] as [Culture]"],
+
+		"cities": ["Berlin","Königsberg","Breslau","Stettin","Magdeburg","Potsdam","Danzig","Erfurt","Cologne","Frankfurt an der Oder","Leipzig",
+			"Halle","Tilsit","Kassel","Glogau","Cottbus","Brandenburg","Marienburg","Allenstein","Elbing","Wittenberg","Naumburg","Merseburg",
+			"Neisse","Liegnitz","Paderborn","Hamm","Goslar","Nordhausen","Prenzlau"],
+		"spyNames": ["Scharnhorst","Blücher","Bismarck","Gneisenau","Schlieffen","Zieten","Von Moltke","Hardenberg","Wilhelm II","Tirpitz"]
+		
+	},
 ]
