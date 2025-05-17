@@ -1,17 +1,34 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+    {
+    	        "name": "Landwehr",
+		"unitType": "Gunpowder",
+	   	"replaces": "Rifleman",
+		"uniqueTo": "Prussia",
+		"movement": 3,
+		"strength": 28,
+		"cost": 200,
+		"requiredTech": "Rifling",
+	        "uniques": ["[+2] Movement <in [Friendly Land] tiles>","[+50]% XP gained from combat"],
+	    	"promotions": ["Drill I"],
+                "obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+    },
+    {
+		"name": "Death's Head Hussar",
+		"unitType": "Mounted",
+	        "replaces": "Cavalry",
+	        "uniqueTo": "Prussia",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			    "[+1] Sight", "[+2] Movement <in [Friendly Land] tiles>"],
+		"promotions": ["Sentry"],
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"attackSound": "horse"
+   },
 ]
