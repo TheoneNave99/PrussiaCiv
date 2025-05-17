@@ -1,25 +1,23 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Kreigsschule",
+		"replaces": "University",
+		"uniqueTo": "Prussia",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 25},
+		"specialistSlots": {"Scientist": 1},
+		"specialistSlots": {"General": 1},
+		"requiredBuilding": "Library",
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Education"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Regimental Camp",
+		"cost": 75,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Shock I] promotion", "Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
 ]
