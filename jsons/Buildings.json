@@ -7,7 +7,6 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 25},
 		"specialistSlots": {"Scientist": 1},
-		"specialistSlots": {"General": 1},
 		"requiredBuilding": "Library",
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Education"
@@ -17,7 +16,8 @@
 		"cost": 75,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Shock I] promotion", "Destroyed when the city is captured"],
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion", "All newly-trained [relevant] units [in this city] receive the [Shock I] promotion",
+			     "[+15]% Production when constructing [Gunpowder] units [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 ]
