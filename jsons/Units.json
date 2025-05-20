@@ -7,7 +7,7 @@
 		"movement": 2,
 		"strength": 18,
 		"cost": 140,
-		"requiredTech": "Civil Service",
+		"requiredTech": "Steel",
 		"uniques": ["[+50]% Strength <when attacking>", "Can move immediately once bought"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
